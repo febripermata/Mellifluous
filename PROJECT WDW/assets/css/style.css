@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Pridi SemiBold";
+    src: url("../font/Pridi-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Pridi Bold";
+    src: url("../font/Pridi-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("../font/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url("../font/Poppins-SemiBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+    background: url("../img/bg.jpg") no-repeat top center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header {
+    padding-top: 100px;
+}
+
+.triple-text p {
+    font: 20px "Pridi Bold";
+    color: rgba(124, 49, 7, .8);
+    margin: 0 25px -80px;
+}
+
+.header h1 {
+    font: 100px "Pridi Bold";
+    color: #7c3107;
+}
+
+nav {
+    background: transparent !important;
+    border-bottom: 1px solid #FFF;
+}
+
+.navbar-nav a {
+    font-family: "Pridi SemiBold";
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.navbar-nav a.active {
+    background: rgba(255, 255, 255, .5);
+    color: #FFF;
+}
+
+i.glyphicon.glyphicon-search{
+    font-size: 20px;
+    color: rgb(184,182,182);
+}
+
+.home {
+    padding-bottom: 150px;
+}
+
+.img-home {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.img-home img {
+    width: 100%;
+}
+
+.home h2 {
+    font-family: "Pridi SemiBold";
+    letter-spacing: 1px;
+}
+
+.p-ticket {
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.ticket h1 {
+    font: 30px "Pridi SemiBold";
+    margin: 30px 0;
+}
+
+.ticket label {
+    font: 18px "Poppins SemiBold";
+    color: #FFF;
+}
+
+.ticket input {
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background: #dddddd;
+    font-size: 16px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.konfirmasi-content {
+    font-family: "Poppins SemiBold";
+    letter-spacing: .5;
+}
+
+.upload-photo {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #333;
+    width: max-content;
+    margin: 15px 0;
+    font: 18px "Poppins SemiBold";
+    color: #FFF;
+}
+
+.konfirmasi-content button {
+    padding: 8px 15px;
+    border-radius: 30px;
+    background: #DDD;
+    color: #333;
+    font: 16px "Poppins SemiBold";
+    margin: 0 5px;
+}
+
+.info p {
+    font: 20px "Pridi Bold";
+    color: #202020;
+}
+
+ol.step {
+    margin-left: 80px;
+    border: 2px solid #202020;
+    padding: 20px;
+    width: max-content;
+    font: 20px "Pridi SemiBold";
+}
+
+ol.step li {
+    margin-left: 20px;
+    color: #202020;
+}
+
+.info-ticket {
+    margin-top: 50px;
+    font: 20px "Pridi Bold";
+}
+
+.info-ticket,
+.info-ticket > div {
+    border: 2px solid #202020;
+}
+
+.pesan-btn {
+    font: 20px "Pridi SemiBold";
+    border: 10px solid #202020;
+    background: #565155;
+}
